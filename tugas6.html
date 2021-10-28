@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tugas 6 HTML</title>
+</head>
+<body>
+	<h2>Login</h2>
+	<p>- Departement of Finance</p>
+
+	<form >
+		<input type="email" name="email" placeholder="email">
+		<br>
+		<input type="text" name="username" placeholder="username">
+		<br>
+		<input type="password" name="password" placeholder="password">
+		<br>
+		<button type="button" onclick="jalan()">Jalan</button>
+	</form>
+
+	<script type="text/javascript">
+		function jalan() {
+			console.log(document.getElementsByTagName('input'));
+			console.log(document.getElementsByTagName('h2'));
+		}
+
+	</script>
+</body>
+</html>
